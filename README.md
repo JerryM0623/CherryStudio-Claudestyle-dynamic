@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/99fc8bc6-2a4a-4fcf-88be-1fe0e4b958a9
 >吉伊卡哇[吉伊卡哇](https://cherry-ai.com/css)  
 >忘了从哪里找的Claude风格  
 >霞鹜文楷 GB 屏幕阅读版-[GitHub](https://github.com/lxgw/LxgwWenKai-Screen)  
->Maple Mono NL CN-[GitHub](https://github.com/subframe7536/maple-font)  
+>Jetbrains Mono-[Jetbrains Mono](https://www.jetbrains.com/lp/mono/)  
 ---
 
 [原始聊天文档](https://github.com/bjl101501/CherryStudio-Claudestyle-dynamic/blob/main/chat.md)  
@@ -40,12 +40,12 @@ https://github.com/user-attachments/assets/99fc8bc6-2a4a-4fcf-88be-1fe0e4b958a9
 
 /* 确保代码块内的文本使用正确字体 */
 pre *, code *, kbd, samp, tt {
-    font-family: "Maple Mono NL CN", monospace !important;
+    font-family: "Jetbrains Mono", Consolas, "Microsoft YaHei UI", system-ui !important;
 }
 
 .markdown * code {
 	color: rgb(203,64,66);
-	font-family: "Maple Mono NL CN", monospace !important;
+	font-family: "Jetbrains Mono", Consolas, "Microsoft YaHei UI", system-ui !important;
 }
 
 /* 浅色模式颜色定义 - 采用Claude的色调 */
@@ -289,7 +289,7 @@ body[theme-mode='dark'] .bubble * .message-action-button:hover {
     ```
     .markdown * code {
     	color: rgb(203,64,66);
-    	font-family: "Maple Mono NL CN", monospace !important;
+    	font-family: "Jetbrains Mono", Consolas, "Microsoft YaHei UI", system-ui !important;
     	font-size: 12px
     }
     ```
