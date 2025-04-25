@@ -40,7 +40,7 @@
 
 /* 确保代码块内的文本使用正确字体 */
 pre *, code *, kbd, samp, tt {
-    font-family: "Maple Mono NL CN", monospace !important;
+    font-family: "Jetbrains Mono", Consolas, "Microsoft YaHei UI", system-ui !important;
 }
 
 /* 浅色模式颜色定义 - 采用Claude的色调 */
