@@ -100,6 +100,11 @@ body[theme-mode='dark'] .markdown {
     color:  var(--chat-text-user) !important;
 }
 
+/* 引用文本区域样式 */
+.markdown .footnotes {
+    background-color: var(--chat-background-user);
+}
+
 .message-content-container:hover {
     transform: translateY(-2px); /* 悬停时轻微上移 */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important; /* 悬停时添加阴影 */
